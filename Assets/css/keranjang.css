@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700|Roboto:400,500,700|Zilla+Slab+Highlight');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+
+.container {
+    transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+    -ms-transition: all 0.9s ease 0s;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.alert {
+    margin-top: 50px;
+
+}
+#keranjang {
+    padding-top: 110px !important;
+}
+
+#keranjang .alert {
+    padding: 0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0 0;
+}
+
+#keranjang header h4 {
+    padding: 12px;
+    background: #E75643;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-family: 'Reem Kufi',sans-serif;
+    
+}
+#keranjang .image {
+    margin-top: 20px;
+}
+#keranjang .plus {
+    margin-top: 50px;
+}
+#keranjang button.button{
+    background-color: #E75643;
+    color: white;
+    font-family: 'Reem Kufi',sans-serif;
+}
+#keranjang .cek button{
+    color: white;
+    background-color: black;
+    font-family: 'Reem Kufi',sans-serif;
+}
+#keranjang .cek button a{
+    color: white;
+    text-decoration: none;
+    
+}
+#keranjang .cek {
+    padding: 20px 0;
+}
+#keranjang .cek button:hover{
+    color: white;
+    background: rgb(161, 158, 158);
+}

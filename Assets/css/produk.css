@@ -1,0 +1,486 @@
+.container {
+    transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+    -ms-transition: all 0.9s ease 0s;
+}
+
+/* Produk HTML */
+#gambar {
+    padding-top: 115px !important;
+
+}
+#gambar img {
+    width: 100%;
+   
+}
+
+/* Kategori*/
+
+#kategori .kat-text {
+    width: 280px;
+    height: auto;
+    padding-left: 20px;
+    padding: 0 20px;
+    background-color: #FFFFFF;
+
+}
+
+#kategori .kat-text h4 {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+}
+
+#kategori .kat-text ul li {
+    list-style-type: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#kategori .kat-text ul li a {
+    text-decoration: none;
+    color: rgba(78, 78, 78, 0.5);
+    font-weight: 500;
+}
+
+#kategori .kat-text ul li :hover {
+    color: black;
+    transition: 0.3s;
+}
+
+#kategori .kat-text ul li .active {
+    color: black;
+}
+
+#kategori .kat-text hr.garis {
+    border: 1px solid #A6A6A6;
+    border-radius: 10px;
+
+}
+
+/* filter price */
+p {
+    padding: 0;
+    margin: 0;
+}
+
+#kategori .kat-text .wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.filter-price {
+    width: auto;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.price-title {
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.2em;
+    font-weight: 400;
+    background: black;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+
+.price-container {
+    display: flex;
+    padding: 5px;
+    margin-left: 15px;
+    width: 150px;
+    line-height: 7px;
+
+}
+
+.price-field {
+    position: relative;
+    width: 100%;
+    height: 36px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+.price-field input[type=range] {
+    position: absolute;
+}
+
+/* Reset style for input range */
+
+.price-field input[type=range] {
+    width: 100%;
+    height: 7px;
+    border: 1px solid #000;
+    outline: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    pointer-events: none;
+    -webkit-appearance: none;
+}
+
+.price-field input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.price-field input[type=range]:active,
+.price-field input[type=range]:focus {
+    outline: 0;
+}
+
+.price-field input[type=range]::-ms-track {
+    width: 188px;
+    height: 2px;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    pointer-events: none;
+    background: transparent;
+    border-color: transparent;
+    color: red;
+    border-radius: 5px;
+}
+
+/* Style toddler input range */
+
+.price-field input[type=range]::-webkit-slider-thumb {
+    /* WebKit/Blink */
+    position: relative;
+    -webkit-appearance: none;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin-top: -4px;
+    background-color: #fff;
+    cursor: pointer;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 100;
+}
+
+.price-field input[type=range]::-moz-range-thumb {
+    /* Firefox */
+    position: relative;
+    appearance: none;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin-top: -5px;
+    background-color: #fff;
+    cursor: pointer;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 100;
+}
+
+.price-field input[type=range]::-ms-thumb {
+    /* IE */
+    position: relative;
+    appearance: none;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin-top: -5px;
+    background-color: #242424;
+    cursor: pointer;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 100;
+}
+
+/* Style track input range */
+
+.price-field input[type=range]::-webkit-slider-runnable-track {
+    /* WebKit/Blink */
+    width: 188px;
+    height: 2px;
+    cursor: pointer;
+    background: #555;
+    border-radius: 5px;
+}
+
+.price-field input[type=range]::-moz-range-track {
+    /* Firefox */
+    width: 188px;
+    height: 2px;
+    cursor: pointer;
+    background: #242424;
+    border-radius: 5px;
+}
+
+.price-field input[type=range]::-ms-track {
+    /* IE */
+    width: 188px;
+    height: 2px;
+    cursor: pointer;
+    background: #242424;
+    border-radius: 5px;
+}
+
+/* Style for input value block */
+
+#kategori .price-container {
+    margin-left: -5px;
+}
+.price-wrap {
+    display: flex;
+    color: #242424;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.price-wrap-1,
+.price-wrap-2 {
+    display: flex;
+    margin-left: 0px;
+}
+
+.price-title {
+    margin-right: 5px;
+    cursor: pointer;
+    margin-left: -15px;
+}
+
+.price-wrap_line {
+    margin: 6px 0px 5px 5px;
+}
+
+.price-wrap #one,
+.price-wrap #two {
+    width: 30px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 2px;
+    background: 0;
+    border: 0;
+    outline: 0;
+    color: #242424;
+    font-family: 'Karla', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 400;
+}
+
+.price-wrap label {
+    text-align: right;
+    margin-top: 6px;
+    padding-left: 5px;
+}
+
+/* Style for active state input */
+
+.price-field input[type=range]:hover::-webkit-slider-thumb {
+    box-shadow: 0 0 0 0.5px #242424;
+    transition-duration: 0.3s;
+}
+
+.price-field input[type=range]:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 0.5px #242424;
+    transition-duration: 0.3s;
+}
+
+/* End price */
+
+#kategori .kat-text .circle-c i {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+#kategori .kat-text .circle-c a {
+    text-decoration: none;
+}
+
+/* short by*/
+.short button {
+    border-radius: 0px;
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    margin-left: 10px;
+}
+
+#produk {
+    /* min-height: 300px; */
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+#produk .box {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#produk .card {
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: auto !important;
+    text-align: center;
+    font-family: arial;
+    cursor: pointer;
+}
+
+.add-cart {
+    height: 0 !important;
+    transition: 0.4s !important;
+    overflow: hidden;
+    background: transparent !important;
+}
+
+#produk .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#produk .card:hover .add-cart {
+    height: 40px !important;
+    padding: 0.375rem 0.75rem !important;
+    background: #E75643 !important;
+}
+
+#produk .card p.price {
+    color: #E75643;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+#produk .card button {
+    background: #E75643;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0px;
+    margin-top: 341px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-bottom: -10%;
+}
+
+#produk .card button:hover {
+    transition: 0.5s;
+
+}
+
+#produk span.newp {
+    width: 60px;
+    height: auto;
+    background-color: #00C082;
+    float: left !important;
+    margin: 10px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#produk span.news {
+    width: 60px;
+    height: auto;
+    background-color: #FF5454;
+    float: left !important;
+    margin: 10px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+/* Pagination */
+
+#kategori .frame button {
+    border-radius: 100px;
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid black;
+    font-size: 12px
+}
+
+#kategori .frame button:hover {
+    background: black;
+    color: white;
+}
+/* CATEGORY2
+#category2{
+    padding-top:15px;
+
+}
+#category2 h5{
+    font-family: 'Reem Kufi', sans-serif;
+}
+#category2 .text .active {
+    color: black;
+}
+#category2 .text ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+#category2 .text ul li a{
+   
+    text-decoration: none;
+    color: rgba(78, 78, 78, 0.5);
+}
+#category2  hr{
+    border: 1px solid #A6A6A6;
+    border-radius: 10px;
+} */
+
+
+@media only screen and (max-width:992px) {
+    #kategori .kat-text {
+        width: auto;
+    }
+
+    #kategori .price-container {
+        margin-left: -12px;
+    }
+    #produk .card button {
+        margin-top: 312px;
+     
+    }
+
+}
+@media only screen and (max-width:768px){
+    #kategori .kat-text {
+        width: auto;
+    }
+    #produk .card button {
+        margin-top: 302px;  
+    }
+    #kategori {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:576px){
+    #produk .card button{
+        display: none;
+    }
+}
